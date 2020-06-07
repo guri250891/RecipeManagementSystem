@@ -1,0 +1,201 @@
+.imageContainer {width: 100%;margin: 0 auto;display: inline-block;text-align: center;}
+		.left {width: 50%; float: left;}
+		.right {text-align: left;}
+			img{width: 300px; height: 300px;}
+			.recipeDetails {width: 100%;display: inline-block;padding: 40px;box-sizing: border-box;}
+			p.recipeDesc {background: #cccccc6e;padding: 20px 50px;font-size: 18px;width: 55%;float: left;    margin: 0;}
+			ul.recipeShort {width: 30%;display: inline-block;float: left;box-sizing: border-box;list-style: none;background: #ff000059;    padding: 33px 20px;margin: 0 0 0 30px;}
+			.recipeShort h5 {width: 50%;display: inline-block;margin: 5px auto;}
+			ul.ingredients {display: inline-block;width: 48%;float: left; box-sizing: border-box;background: red;list-style: circle;padding: 30px 0 40px 35px;margin: 30px 0;}
+			.ingredients li {width: 45%;float: left;    margin: 0px 10px;}
+			ul.steps {display: inline-block;float: left;width: 45%;margin: 30px 0 0 40px;background: skyblue;padding: 40px 50px;box-sizing: border-box;}
+			.ingredients li h5 {margin: 10px 0px 0 0;}
+			.menu .nav-links {
+    display: inline-block;
+    width: 100%;
+    float: left;
+}
+.menu .nav-links a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline;
+    font-family: 'myopensans', sans-serif;
+    padding: 20px 40px;
+}
+.menu .nav-links a:hover {background: #5c8608;}
+.header {
+    background: #363636;
+    padding: 20px 20px 37px;
+    margin-bottom: 30px;
+}
+.top {
+    background: #cccccc45;
+    padding: 20px 0;
+    text-align: center;
+}
+.top h3 {
+    font-size: 30px;
+    color: #363636;
+}
+.login, .signUp {
+    background: #cccccc38;
+    padding: 50px 0;
+    text-align: center;
+}
+.signUp {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    background: #363636;
+    margin: 0 auto;
+    padding: 40px 80px;
+}
+.login h2, .signUp h2 {
+    margin: 0 0 30px 0;
+}
+.login form {
+    background: #363636d9;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+label {
+    font-size: 18px;
+    color: #fff;
+    margin: 0 20px 0 0px;
+}
+input {
+    height: 32px;
+    padding: 0 0 0 10px;
+}
+input#login {
+    margin: 0 0 0 27px;
+}
+input[type="submit"] {
+    height: 40px;
+    padding: 0 50px;
+    margin: 20px 0 0 0;
+    background: #ccc;
+    border: navajowhite;
+    font-size: 18px;
+    font-weight: 500;
+    color: #363636;
+}
+.userName {
+    text-align: center;
+}
+.login a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.sanjeev, .tarlaDalal, .guyFieri, .gordonRamsay, .archana, .harpal, .jamie, .bryant, .shipra, .padmalakshmi {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+}
+.imgContainer {  width: 25%;float: left;}
+img {   width: 100%;}
+
+.signUp p {
+    display: table-row;
+}
+.signUp label {
+    display: table-cell;
+    text-align: right;
+}
+.signUp input {
+    display: table-cell;
+}
+.signUp form {
+    background: #363636;
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}
+.addUserForm {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background: #cccccc2b;
+	margin: 0 0 20px 0;
+}
+.addUserBg {
+    display: inline-block;
+    width: 45%;
+    background: #363636;
+    padding: 30px 0;
+    position: relative;
+}
+.addUserBg form#addUser {
+    display: table;
+    width: 100%;
+}
+.addUserBg p {
+    display: table-row;
+}
+.addUserBg label, .addUserBg input {
+    display: table-cell;
+}
+select#auhhor_name {
+    height: 32px;
+    width: 59%;
+}
+.addUserBg label {
+    text-align: right;
+}
+.addUserBg h3 {
+    color: #fff;
+    position: absolute;
+    top: 55px;
+    display: inline-block;
+    width: 50%;
+}
+
+.userName {
+    text-align: center;
+    background: #ccc;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+footer {
+    background: #363636;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+footer h5 {
+    color: #fff;
+    font-size: 16px;
+}
+.loginBg input[type="submit"] {
+    height: 40px;
+    padding: 0 50px;
+    margin: 4px 0 0 59px;
+    background: #ccc;
+    border: navajowhite;
+    font-size: 18px;
+    font-weight: 500;
+    color: #363636;
+}
+footer p#copyright {
+    color: #fff;
+}
+
+a#addRecipePage {
+    color: #fff;
+    background: #363636;
+    padding: 20px 40px;
+    position: absolute;
+    left: 530px;
+}
+.login .loginBg {
+    position: relative;
+    margin: 0;
+}
